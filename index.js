@@ -55,7 +55,7 @@ function showResults(data) {
 function main() {
   function connectToApi() {
     const URL =
-      "https://cdn.contentful.com/spaces/7ass8d0affw7/environments/master/entries?access_token=Y4SStXGRLNJ_ox3XH9YLD_VDG99ACMJFGELjyLkKriA";
+      "https://cdn.contentful.com/spaces/7ass8d0affw7/environments/master/entries?access_token=Y4SStXGRLNJ_ox3XH9YLD_VDG99ACMJFGELjyLkKriA&&content_type=titulo";
 
     fetch(URL)
       .then((response) => response.json())
